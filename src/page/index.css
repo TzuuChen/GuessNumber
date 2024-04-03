@@ -1,0 +1,48 @@
+.border {
+  height: 40vh;
+  width: 60vh;
+  margin:10px;
+  border-style: solid;
+  padding:10px;
+}
+
+h1 {
+  margin: 10 0 30 0;
+  border-bottom: 10px;
+  border-bottom-style: double;
+}
+
+input {
+  margin:5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+button {
+  margin: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:disabled {
+  cursor: auto;
+  background-color: gray;
+  color: black;
+}
+h2 {
+  font-size: 20px;
+}
+
+.red{
+  color:red;
+}
+
+.green{
+  color:green;
+}
